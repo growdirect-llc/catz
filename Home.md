@@ -3,15 +3,18 @@ classification: confidential
 owner: GrowDirect LLC
 ---
 
-# KATZ
+# CATz — Canary Agent Taskforce
 
-GrowDirect LLC's methodology vault. Engagement model, capability
-framework, artifact templates, role playbooks, partnerships,
-standards adoption.
+GrowDirect LLC's methodology vault. The pack of trained,
+principal-aware AI agents + human delivery lead that observes a
+retailer's operation, translates what it sees into the canonical
+retail data model, and produces engagement-grade deliverables.
+Engagement model, capability framework, artifact templates, role
+playbooks, partnerships, standards adoption.
 
 ## Method
 
-- [[method/overview]] — KATZ method in one page
+- [[method/overview]] — CATz method in one page
 - [[method/retail-diagnostic]] — 7-section diagnostic frame
 - [[method/it-architecture-options]] — multi-option architecture
   evaluation frame

@@ -34,7 +34,7 @@ to the merchant's end users or operators.
 
 ### Delivery agents
 
-Agents that run alongside the KATZ delivery team during an
+Agents that run alongside the CATz delivery team during an
 engagement. Not visible to the merchant as "agents"; they appear as
 the delivery team's capability.
 

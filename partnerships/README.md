@@ -16,7 +16,7 @@ described here is either published or disclosable under NDA.
   identity providers, hardware-security vendors).
 - `integration-partners.md` — system integrators, implementation
   partners, and referral partners authorized to deploy Canary
-  Retail or deliver KATZ engagements.
+  Retail or deliver CATz engagements.
 - `standards-bodies.md` — active memberships and published
   standards adoption: ARTS (Association for Retail Technology
   Standards), NRF, PCI Security Standards Council.

@@ -16,10 +16,10 @@ vendor, and distribution relationships.
   where GrowDirect either consumes a vendor's capability or
   integrates it into the Canary Retail platform.
 - `license-standard.md` — standard license terms for method
-  licensing (KATZ methodology distributed outside GrowDirect
+  licensing (CATz methodology distributed outside GrowDirect
   delivery) and plugin distribution.
 - `engagement-contract-template.md` — standard retainer agreement
-  for a KATZ engagement delivery.
+  for a CATz engagement delivery.
 
 ## Authoring rule
 

@@ -8,7 +8,7 @@ type: cbm-cell
 
 Data Protection & Governance is the operational discipline around
 every piece of PII, payment credential, and evidence record that
-flows through a Canary Retail deployment or a KATZ engagement.
+flows through a Canary Retail deployment or a CATz engagement.
 
 ## Why this is a cell
 

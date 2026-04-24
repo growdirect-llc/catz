@@ -1,9 +1,16 @@
-# KATZ — GrowDirect Methodology
+# CATz — Canary Agent Taskforce
 
-KATZ is GrowDirect LLC's engagement and build method. It is how GrowDirect
-designs, diagnoses, architects, and delivers retail platform work.
-Externally-facing. Owned. Not a framework we borrowed. Not a template we
-licensed. Our magic, our thought.
+**CATz** is GrowDirect LLC's methodology and delivery framework.
+The name expands to **Canary Agent Taskforce** — a nod to what the
+method actually is: a pack of trained, principal-aware AI agents
+working alongside a human delivery lead, observing a retailer's
+operation (watchful cats, not mice), translating what they see into
+the canonical retail data model, and producing engagement-grade
+deliverables at an SMB-feasible pace.
+
+CATz is how GrowDirect designs, diagnoses, architects, and delivers
+retail platform work. Externally-facing. Owned. Not a framework we
+borrowed. Not a template we licensed. Our magic, our thought.
 
 ## What lives here
 

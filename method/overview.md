@@ -4,9 +4,9 @@ owner: GrowDirect LLC
 type: method-overview
 ---
 
-# KATZ Method — Overview
+# CATz Method — Overview
 
-KATZ is GrowDirect's two-phase engagement model. It is how we diagnose
+CATz is GrowDirect's two-phase engagement model. It is how we diagnose
 a retailer's operating state, define the target state, evaluate the
 architectural options to get there, and execute against the chosen
 path. It is designed for small-to-mid specialty retailers with an
@@ -79,7 +79,7 @@ part of the filename. No one wonders which is canonical.
 
 ## Two signature deliverables
 
-KATZ ships two externally-branded methodology skills under
+CATz ships two externally-branded methodology skills under
 `plugins/consulting/`:
 
 - **[[retail-diagnostic]]** — a 7-section retail diagnostic deck, the
@@ -99,7 +99,7 @@ into the canonical model) and **Digital Plumber** (wires the canonical
 model into systems of record) — are what make a small, AI-augmented
 team capable of engagement-grade delivery.
 
-## What makes KATZ different
+## What makes CATz different
 
 1. **Agent-native.** Phase I ingest, as-is analysis, Phase II option
    modeling — all scaffolded by agents running against the canonical
@@ -118,7 +118,7 @@ team capable of engagement-grade delivery.
 
 ## Adoption
 
-KATZ is the method GrowDirect uses for:
+CATz is the method GrowDirect uses for:
 - External engagement work (SMB retailer onboarding to Canary Retail)
 - Internal transformation moments (platform v2 moves, major vendor
   cutovers)

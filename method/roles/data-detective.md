@@ -9,7 +9,7 @@ type: role-playbook
 Data Detectives translate a retailer's heterogeneous data — POS
 exports, spreadsheets, system inventories, interview notes, workshop
 transcripts, invoice archives — into GrowDirect's canonical retail
-data model. They are the front line of a KATZ engagement.
+data model. They are the front line of a CATz engagement.
 
 ## The mandate
 

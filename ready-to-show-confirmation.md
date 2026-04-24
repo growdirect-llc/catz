@@ -3,10 +3,10 @@ classification: confidential
 owner: GrowDirect LLC
 date: 2026-04-24
 type: dry-run-verification
-scope: KATZ
+scope: CATz
 ---
 
-# KATZ — Cold-Reader Verification
+# CATz — Cold-Reader Verification
 
 ## Verdict
 
@@ -76,7 +76,7 @@ wikilinks to not-yet-written files are openly acknowledged as planned
 in Home.md rather than hidden as broken references.
 
 Following `Home.md` → `method/overview.md` → `method/retail-diagnostic.md`,
-a reader forms a coherent mental model quickly: KATZ is a two-phase
+a reader forms a coherent mental model quickly: CATz is a two-phase
 engagement method, the two productized skills are concrete and deck-
 shaped, the two novel roles (Data Detective / Digital Plumber) explain
 how a small team delivers engagement-grade work, and the CBM v2 extension

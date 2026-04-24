@@ -6,7 +6,7 @@ type: method-phase
 
 # Phase II — Select & Implement
 
-The second phase of a KATZ engagement. Output is a signed vendor
+The second phase of a CATz engagement. Output is a signed vendor
 commitment and a funded implementation plan. The phase runs
 only after Phase I closes; the decision from Phase I is the input.
 
@@ -112,11 +112,11 @@ Phase II closes when:
 
 ## Phase III — Implementation (separate)
 
-KATZ covers Assess & Design (Phase I) and Select & Implement
+CATz covers Assess & Design (Phase I) and Select & Implement
 (Phase II). The actual implementation — the build, deploy, and
 cutover work — runs as a sibling workstream with its own
 methodology (typically the vendor's or SI partner's, overlaid by
-the KATZ governance cells from CBM v2: PMO, ARB, Data Protection,
+the CATz governance cells from CBM v2: PMO, ARB, Data Protection,
 Agent Strategy).
 
 For Canary Retail engagements, Phase III implementation runs on

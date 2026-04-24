@@ -8,7 +8,7 @@ type: about
 
 GrowDirect LLC is a retail platform company. It builds a canonical
 retail data model, ships a retail operating system on top of that
-model (Canary Retail), and delivers engagement work using the KATZ
+model (Canary Retail), and delivers engagement work using the CATz
 methodology to land that platform in SMB specialty retailers with
 online footprint.
 
@@ -22,7 +22,7 @@ ships poorly (Loss Prevention, Transactions). See
 [Canary-Retail-Brain](../../Canary-Retail-Brain/) for the product
 detail.
 
-**Method.** KATZ — the engagement and delivery method by which
+**Method.** CATz — the engagement and delivery method by which
 GrowDirect designs, diagnoses, architects, and delivers retail
 platform work. This vault.
 
@@ -40,9 +40,9 @@ SaaS tenant, a custom plugin, and an embedded methodology.
 - ARTS-aligned data model. Published standards adoption is a first-
   class commitment, not an aspiration.
 
-## Why KATZ is a separate vault
+## Why CATz is a separate vault
 
-The product (Canary Retail) and the method (KATZ) are distinct
+The product (Canary Retail) and the method (CATz) are distinct
 goods. A retailer can buy the product, the method, or both. A
 partner can license the method without reselling the product. A
 potential investor can evaluate the product without seeing the

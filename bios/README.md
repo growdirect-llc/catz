@@ -15,7 +15,7 @@ Externalized bios for GrowDirect LLC principals and key contributors.
   responsibility in prior executive roles). Per the authoring
   rule, prior employers are not named by company; the credentials
   are described as "in prior executive roles."
-- Contributor bios — added as KATZ expands beyond solo-founder.
+- Contributor bios — added as CATz expands beyond solo-founder.
 
 ## Authoring rule
 

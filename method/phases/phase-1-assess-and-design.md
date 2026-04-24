@@ -6,7 +6,7 @@ type: method-phase
 
 # Phase I — Assess & Design
 
-The first phase of a KATZ engagement. Output is a signed decision:
+The first phase of a CATz engagement. Output is a signed decision:
 proceed, against a specific vision, backed by a quantified business
 case.
 

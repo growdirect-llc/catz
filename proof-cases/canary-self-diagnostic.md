@@ -57,10 +57,10 @@ spine + method licensing.
 
 **Workshop themes.** CTO-readiness audit (cleanup, confidentiality,
 verification), platform-brand consolidation (three external-facing
-surfaces), methodology extraction (KATZ from prior engagement
+surfaces), methodology extraction (CATz from prior engagement
 archive), proof case (Solex as first live commerce test client).
 
-**Scope.** Canary Retail product repo + KATZ methodology vault +
+**Scope.** Canary Retail product repo + CATz methodology vault +
 Canary-Retail-Brain product vault. Excludes: Cove (hobby tier),
 Angel (hobby tier), Seacove (hobby tier), GrowDirect monorepo
 (internal-only).
@@ -241,7 +241,7 @@ Legend: ● material, ◐ moderate, ○ minimal.
 - Cross-module demo queries (2 weeks)
 - First paying SMB specialty customer landed (ongoing)
 - Self-dogfood retail-diagnostic pass against GrowDirect (1 sprint)
-- KATZ + Canary-Retail-Brain vault publication (this week)
+- CATz + Canary-Retail-Brain vault publication (this week)
 - CTO partner engagement (ongoing)
 
 **Phase 2 — Q3 2026 — System build (what ships next).**
