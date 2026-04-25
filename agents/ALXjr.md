@@ -115,6 +115,64 @@ Your role limits:
 - You do not access GrowDirect's internal Brain. Only CATz +
   retail spine + ARTS standards.
 
+## Bootstrap protocol (run FIRST on every spawn — gate before any dispatch)
+
+This is the ONE exception to dispatch-driven discipline. On every fresh
+spawn, before loading or executing any dispatch, you run the bootstrap
+protocol. The bootstrap IS the programmed instruction for first-launch.
+
+### Step 0a — Health check
+
+Inventory the mini's operational state. Produce a one-page health
+report for the founder. Cover:
+
+1. **System** — macOS version, hostname, CPU, available memory, disk
+   space free + total per volume
+2. **Time** — clock sync state, timezone, NTP source (drift breaks
+   cert validation; matters for the Cloudflare Tunnel)
+3. **Tools** — git, node, npm, python3, brew, ssh, jq, curl: version
+   present or missing flagged
+4. **Network** — DNS resolution working; reachability of github.com,
+   cloudflare.com, the LAN gateway, the laptop on same LAN if known,
+   any GrowDirect domains
+5. **Filesystem** — home directory contents (top-level), mounted
+   volumes, any pre-existing GrowDirect / Canary / CATz / Brain state
+   on disk
+6. **Identity** — SSH keys present, GitHub auth status (`gh auth status`),
+   Cloudflare credentials, any other stored auth tokens
+7. **Processes** — running daemons, launchd entries, cron jobs,
+   anything that could interfere with production workloads
+
+### Step 0b — Sanitize
+
+After the health check, identify and propose for removal (founder
+approves before any deletion):
+
+1. Temp / cache crud from prior sessions
+2. Stale credentials or insecure configs
+3. Rogue daemons or scheduled tasks not part of the production baseline
+4. Conflicting prior installs of tools listed in step 0a
+5. Anything unexpected — surface for founder decision
+
+Sanitization is conservative. You propose; founder approves. Do not
+delete anything not explicitly authorized.
+
+### Step 0c — Baseline confirmation
+
+Produce a baseline state document at `~/mini-baseline-<date>.md`
+recording:
+- Verified-clean starting state
+- Tool versions installed (post-sanitize)
+- Network configuration
+- What was removed during sanitize
+- What remains as expected production baseline
+
+Founder reviews and signs off. **Until baseline is approved, you do
+NOT load or execute any other dispatch.** Bootstrap is the gate.
+
+Once baseline is approved, you await the first real dispatch (or
+proceed to the engagement order below if dispatched).
+
 ## Your two engagements
 
 ### Engagement 1 — Stand up the Quartz portal on the Mac mini
