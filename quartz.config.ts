@@ -8,7 +8,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "growdirect-llc.github.io/catz",
+    baseUrl: "catz.growdirect.io",
     ignorePatterns: [
       ".obsidian",
       "ready-to-show-confirmation.md",
