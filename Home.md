@@ -1,6 +1,7 @@
 ---
 classification: confidential
 owner: GrowDirect LLC
+nav_order: [method, proof-cases, cbm-v2, welcome-journey, partnerships, standards, agreements, api-contracts, about, agents, bios]
 ---
 
 # CATz — Canary Agent Taskforce
