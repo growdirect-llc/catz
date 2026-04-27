@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: role-playbook
+nav_order: 82
 ---
 
 # Role — Data Detective

@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: method-detail
+nav_order: 2
 ---
 
 # CATz Method — Full Phase and Workstream Detail

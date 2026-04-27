@@ -3,6 +3,7 @@ classification: confidential
 owner: GrowDirect LLC
 type: method-reference
 skill: plugins/consulting/skills/retail-diagnostic/SKILL.md
+nav_order: 3
 ---
 
 # Method — Retail Diagnostic

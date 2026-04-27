@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: method-reference
+nav_order: 5
 ---
 
 # Cloud Architecture Options for CATz Deployments

@@ -3,6 +3,7 @@ classification: confidential
 owner: GrowDirect LLC
 type: method-reference
 skill: plugins/consulting/skills/it-architecture-options/SKILL.md
+nav_order: 4
 ---
 
 # Method — IT Architecture Options

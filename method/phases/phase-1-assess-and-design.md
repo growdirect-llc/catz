@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: method-phase
+nav_order: 7
 ---
 
 # Phase I — Assess & Design

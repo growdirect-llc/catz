@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: method-overview
+nav_order: 1
 ---
 
 # CATz Method — Overview

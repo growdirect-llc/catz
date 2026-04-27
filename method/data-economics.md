@@ -2,6 +2,7 @@
 classification: confidential
 owner: GrowDirect LLC
 type: method-reference
+nav_order: 6
 ---
 
 # Data Ingress/Egress Economics and the Own-Your-Data Argument

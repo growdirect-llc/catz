@@ -4,6 +4,7 @@ owner: GrowDirect LLC
 type: method-artifact
 phase: II
 workstream: between W1 (To-Be Workshops) and W4 (IT Architecture); also feeds Phase III SDD inputs
+nav_order: 91
 ---
 
 # Phase II Artifact — Module Functional Decomposition

@@ -4,6 +4,7 @@ owner: GrowDirect LLC
 type: method-artifact
 phase: II
 workstream: between W1 (To-Be Workshops) and W5 (Scorecard and Shortlist)
+nav_order: 92
 ---
 
 # Phase II Artifact — Solution Map
