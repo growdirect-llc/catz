@@ -16,6 +16,12 @@ playbooks, partnerships, standards adoption.
 ## Method
 
 - [[method/overview]] — CATz method in one page
+- [[method/catz-method-detail]] — full CDF phase and workstream detail
+  (Scaffold / Seed / Show, RACI matrix, risk register)
+- [[method/cloud-architecture-options]] — cloud platform decision
+  framework (AWS / GCP / Azure, tenant isolation, scaling path)
+- [[method/data-economics]] — data ingress/egress economics and the
+  own-your-data argument (cost model, hostage dynamic, crossover math)
 - [[method/retail-diagnostic]] — 7-section diagnostic frame
 - [[method/it-architecture-options]] — multi-option architecture
   evaluation frame
