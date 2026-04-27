@@ -12,7 +12,7 @@ import yaml
 
 # ─── CLI ─────────────────────────────────────────────────────────────────────
 p = argparse.ArgumentParser()
-p.add_argument("--site-title", default="Canary for NCR Counterpoint")
+p.add_argument("--site-title", default="CATz Method")
 p.add_argument("--out", default="_site")
 p.add_argument("--root", default=".")
 args = p.parse_args()
