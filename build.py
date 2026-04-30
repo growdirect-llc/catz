@@ -229,7 +229,12 @@ def build_top_nav_links(pages):
     items = sorted(dirs.values(), key=lambda x: len(x[1]))[:3]
     return ''.join(f'<a href="{href}">{label}</a>' for href, label in items)
 
-def page_html(title, body_html, sidebar_html, breadcrumb_html, site_title, fm, nav_links=''):
+def page_html(title, body_html, sidebar_html, breadcrumb_html, site_title, fm, nav_links='', rel_url='', description=''):
+    if not description:
+        description = fm.get('description') or "CATz — GrowDirect's method and delivery framework for SMB retail engagements. Two-phase frame: assess, then build."
+    canonical_url = rel_url
+    if canonical_url.endswith('index.html'):
+        canonical_url = canonical_url[:-10]  # strip 'index.html', keep folder slash
     date = fm.get('date','')
     meta = f'<div class="page-meta">{htmllib.escape(str(date))}</div>' if date else ''
     return f"""<!doctype html>
@@ -238,6 +243,21 @@ def page_html(title, body_html, sidebar_html, breadcrumb_html, site_title, fm, n
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{htmllib.escape(title) + (' · ' + htmllib.escape(site_title) if title != site_title else '')}</title>
+<meta name="description" content="{htmllib.escape(description)}">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/canary-icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/static/canary-icon-192.png">
+<link rel="icon" type="image/svg+xml" href="/static/canary-icon.svg">
+<link rel="apple-touch-icon" href="/static/canary-icon-192.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{htmllib.escape(title)}">
+<meta property="og:description" content="{htmllib.escape(description)}">
+<meta property="og:image" content="https://catz.growdirect.io/static/canary-icon-512.png">
+<meta property="og:url" content="https://catz.growdirect.io/{canonical_url}">
+<meta property="og:site_name" content="{htmllib.escape(site_title)}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{htmllib.escape(title)}">
+<meta name="twitter:description" content="{htmllib.escape(description)}">
+<meta name="twitter:image" content="https://catz.growdirect.io/static/canary-icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -312,7 +332,7 @@ for rel, fm, page_title in pages:
     out_path = OUT / out_rel
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    html = page_html(page_title, body_html, sb_html, bc_html, TITLE, fm, nav_links)
+    html = page_html(page_title, body_html, sb_html, bc_html, TITLE, fm, nav_links, rel_url=str(out_rel))
     out_path.write_text(html, encoding='utf-8')
     print(f"  {rel} → {out_rel}")
 
