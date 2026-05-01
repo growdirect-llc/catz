@@ -16,9 +16,9 @@ online footprint.
 
 **Product.** Canary Retail — a retail operating system for small and
 mid-sized specialty retailers. POS-agnostic by architecture. ARTS-
-standards native. Ships the modules nobody else productizes
-(Customer, Device, Asset/Bubble) alongside the modules everybody
-ships poorly (Loss Prevention, Transactions). See
+standards native. Ships the modules SMB specialty retail typically lacks
+(Customer, Device, Asset/Bubble) alongside the modules where SMB tooling
+is thin (Loss Prevention, Transactions). See
 [Canary-Retail-Brain](../../Canary-Retail-Brain/) for the product
 detail.
 
