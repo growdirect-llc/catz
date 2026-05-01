@@ -69,7 +69,7 @@ The L2 split must reflect the L1 cell. Different cells produce different shapes:
 | Solution Map cell | L2 split shape | Example |
 |---|---|---|
 | **● Full direct** | L2s organized around the substrate's own structure (endpoint families, document types). Coverage is uniform; the work is faithful adaptation. | Module T — substrate ingestion / sealing / parsing / publication / contracts |
-| **◐ Partial / via** | L2s explicitly tagged Canary-native vs substrate-supplied vs bridge. The gap-shape IS the decomposition. | Module J — forecast/replenishment/OTB are ★ Canary-native; PO generation/receiving/RTV are ◐ substrate-supplied; recommendation+approval is the bridge |
+| **◐ Partial / via** | L2s explicitly tagged Canary-native vs substrate-supplied vs bridge. The gap-shape IS the decomposition. | Module O — forecast/replenishment/OTB are ★ Canary-native; PO generation/receiving/RTV are ◐ substrate-supplied; recommendation+approval is the bridge |
 | **★ Canary native** | L2s organized around the Canary-internal architecture (substrate ingestion / detection lifecycle / tuning / surface / phasing). External substrate is consumed but not central. | Module Q — substrate ingestion / detection rule execution / detection lifecycle / tuning / surface / vertical config / deployment phasing |
 | **◯ External vendor** | L2s organized around the integration boundary (vendor data ingest / Canary-side projection / cross-module surface). Vendor is treated as substrate. | (no example yet — Module L native-vs-external decision pending per case-by-case) |
 
@@ -146,8 +146,8 @@ Four cards prove the format generalizes across cell shapes. These should be the 
 |---|---|---|
 | `canary-module-q-functional-decomposition.md` | ★ Canary native | The canonical example. Detection-shaped module with rich vertical configuration. Use as the template starting point. |
 | `canary-module-t-functional-decomposition.md` | ● Full direct | Substrate-shaped module. Producer-side contract registry; multi-source ingress (poll + webhook); cross-cutting cross-module contracts. |
-| `canary-module-r-functional-decomposition.md` | ● Full direct | Substrate-shaped module with privacy posture as a load-bearing L2. Demonstrates that some modules pin a cross-cutting concern as a process area, not a footnote. |
-| `canary-module-j-functional-decomposition.md` | ◐ Partial | The hardest shape. Canary-native vs substrate-supplied vs bridge tagging is mandatory. Proves the format accommodates gap-shaped modules without compromise. |
+| `canary-module-c-functional-decomposition.md` | ● Full direct | Substrate-shaped module with privacy posture as a load-bearing L2. Demonstrates that some modules pin a cross-cutting concern as a process area, not a footnote. |
+| `canary-module-o-functional-decomposition.md` | ◐ Partial | The hardest shape. Canary-native vs substrate-supplied vs bridge tagging is mandatory. Proves the format accommodates gap-shaped modules without compromise. |
 
 When drafting a new module's card, start from the Q card if the new module is ★ Canary native, the T card if ● Full direct and read-only, the R card if ● Full direct with cross-cutting privacy/security concerns, or the J card if ◐ Partial.
 
@@ -168,5 +168,5 @@ When drafting a new module's card, start from the Q card if the new module is �
 - (worked-example proofs, in `Brain/wiki/`)
   - `canary-module-q-functional-decomposition.md` — ★ Canary native
   - `canary-module-t-functional-decomposition.md` — ● Full direct
-  - `canary-module-r-functional-decomposition.md` — ● Full direct with privacy posture
-  - `canary-module-j-functional-decomposition.md` — ◐ Partial
+  - `canary-module-c-functional-decomposition.md` — ● Full direct with privacy posture
+  - `canary-module-o-functional-decomposition.md` — ◐ Partial

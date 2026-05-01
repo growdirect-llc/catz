@@ -88,7 +88,7 @@ For a hypothetical SMB specialty retailer running an incumbent POS and evaluatin
                     Incumbent   Vendor A    Vendor B    Native        External
                     POS         (RFP resp)  (RFP resp)  (own build)
 T (Transactions)    ●           ●           ●           —             —
-R (Customer)        ●           ●           ◐           —             —
+C (Customer)        ●           ●           ◐           —             —
 N (Devices)         ●           ●           ●           —             —
 F (Finance)         ●           ●           ●           —             —
 S (Items)           ●           ●           ◐           —             —

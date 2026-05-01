@@ -31,7 +31,7 @@ Constructed from To-Be Workshop outputs + general industry knowledge of the cand
                     (incumbent)     POS candidates   Native           vendor
                                     (RFP TBD)
 T (Transactions)    ●               TBD              —                —
-R (Customer)        ●               TBD              —                —
+C (Customer)        ●               TBD              —                —
 N (Devices)         ●               TBD              —                —
 F (Finance)         ●               TBD              —                —
 S (Items)           ●               TBD              —                —
@@ -42,7 +42,7 @@ C (Commercial/B2B)  ◐ derived       TBD              —                —
 P (Pricing)         ◐ derived       TBD              —                —
 Q (Loss Prev)       substrate only  —                ★ Canary core    —
 L (Labor)           ✗ no REST       —                ★ option (d)     ◯ (Homebase / ADP / Deputy)
-W (Work Execution)  ✗               —                ★ option (d)     ◯ (Beekeeper / YOOBIC)
+W (Execution)  ✗               —                ★ option (d)     ◯ (Beekeeper / YOOBIC)
 
 ●  Full direct coverage          —  Not applicable / not offered
 ◐  Partial / requires derivation ★  Native build (Canary fills)
@@ -56,7 +56,7 @@ Coverage strength comes from `Brain/wiki/ncr-counterpoint-api-reference.md` (the
 ### T (Transactions) — ● Full direct
 Counterpoint's `Document` family is comprehensive: sales tickets, returns, voids, orders, layaways. Multi-authority tax, line-level pricing rules, payment detail, audit log embedded. Direct CRDM mapping.
 
-### R (Customer) — ● Full direct
+### C (Customer) — ● Full direct
 17 endpoints covering Customer, Customer_Address, Customer_Note, Customer_OpenItems, Customers_EC, CustomerControl, Customer_Card. Loyalty embedded in Customer record (12 LOY_* fields). Tier captured as `CATEG_COD`.
 
 ### N (Devices) — ● Full direct
@@ -95,11 +95,11 @@ Counterpoint exposes the substrate (Document audit logs, drawer sessions, void-c
 
 Strategic decision sits with the platform owner. See `project_canary_native_labor_module_opportunity.md` (in GrowDirect memory).
 
-### W (Work Execution) — ✗ NO Counterpoint coverage / ★ Native option / ◯ External alternative
+### W (Execution) — ✗ NO Counterpoint coverage / ★ Native option / ◯ External alternative
 **Counterpoint REST has no work-execution / task / checklist endpoints.** Same option set as Module L:
 
 - ◯ External: Beekeeper / YOOBIC / Foko Retail — mature task-management for retail
-- ★ Native option (d): Canary builds Module W native — store-ops checklists, daily tasks, store-floor workflows
+- ★ Native option (d): Canary builds Module E native — store-ops checklists, daily tasks, store-floor workflows
 - — Defer
 
 Same strategic decision as Module L.
